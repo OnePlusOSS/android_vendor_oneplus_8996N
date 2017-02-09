@@ -429,6 +429,7 @@ PRODUCT_COPY_FILES += vendor/oneplus/framework/uimremoteclientlibrary.jar:system
 PRODUCT_COPY_FILES += vendor/oneplus/framework/uimremoteserverlibrary.jar:system/framework/uimremoteserverlibrary.jar
 PRODUCT_COPY_FILES += vendor/oneplus/framework/WfdCommon.jar:system/framework/WfdCommon.jar
 PRODUCT_COPY_FILES += vendor/oneplus/lib/libgnsspps.so:system/lib/libgnsspps.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib/libqomx_core.so:system/lib/libqomx_core.so
 PRODUCT_COPY_FILES += vendor/oneplus/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so
 PRODUCT_COPY_FILES += vendor/oneplus/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so
 PRODUCT_COPY_FILES += vendor/oneplus/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so
