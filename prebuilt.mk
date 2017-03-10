@@ -1278,4 +1278,5 @@ PRODUCT_COPY_FILES += vendor/oneplus/lib/libteeclientjni.so:system/lib/libteecli
 PRODUCT_COPY_FILES += vendor/oneplus/lib/libteeclientjni.so:system/lib/libteeclientjni.so
 PRODUCT_COPY_FILES += vendor/oneplus/bin/fingerprintd:system/bin/fingerprintd
 PRODUCT_COPY_FILES += vendor/oneplus/bin/ifaadaemon:system/bin/ifaadaemon
-
+#telephony
+PRODUCT_COPY_FILES += vendor/oneplus/lib64/libparam.so:system/lib64/libparam.so
