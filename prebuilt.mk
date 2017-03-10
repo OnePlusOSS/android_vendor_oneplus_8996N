@@ -940,7 +940,6 @@ PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/egl/libq3dtools_adreno.so:syst
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so
-PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/hw/fingerprint.qcom.so_not_use:system/vendor/lib64/hw/fingerprint.qcom.so_not_use
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so
@@ -1266,4 +1265,17 @@ PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/soundfx/libqcbassboost.so:syst
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so
 PRODUCT_COPY_FILES += vendor/oneplus/vendor/qcril.db:system/vendor/qcril.db
+#fingerprint
+PRODUCT_COPY_FILES += vendor/oneplus/etc/permissions/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
+PRODUCT_COPY_FILES += vendor/oneplus/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib/libteeclientjni.so:system/lib/libteeclientjni.so
+PRODUCT_COPY_FILES += vendor/oneplus/lib/libteeclientjni.so:system/lib/libteeclientjni.so
+PRODUCT_COPY_FILES += vendor/oneplus/bin/fingerprintd:system/bin/fingerprintd
+PRODUCT_COPY_FILES += vendor/oneplus/bin/ifaadaemon:system/bin/ifaadaemon
 
