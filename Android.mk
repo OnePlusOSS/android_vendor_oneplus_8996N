@@ -249,6 +249,17 @@ LOCAL_FORCE_STATIC_EXECUTABLE := true
 LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE        := SimSettings
+LOCAL_MODULE_OWNER  := qcom
+LOCAL_MODULE_TAGS   := optional
+LOCAL_MODULE_CLASS  := APPS
+LOCAL_CERTIFICATE   := platform
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_SRC_FILES     := app/SimSettings/SimSettings.apk
+LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/app
+include $(BUILD_PREBUILT)
+
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
